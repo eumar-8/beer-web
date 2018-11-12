@@ -1,0 +1,205 @@
+.nav {
+    background-color: black;
+    height: 35px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;    
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    background-size: cover !important;
+    padding: 130px;
+   
+  }
+  .banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    
+  }
+  .banner p {
+    font-size: 32px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin-bottom: 22px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+ 
+  .button{
+    padding: 18px;
+    background-color: black;
+    color: white;
+    width: 18%;
+    font-size: inherit;
+    
+  }
+
+  .map{
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  .text-map{
+      text-align: center;
+
+  }
+  .text-map h1{
+   margin: 10px;
+   font-size: 26px;
+ 
+   }
+  .text-map a{
+   color: orange;
+   display: block;
+
+  }
+
+  .text-map p{
+      text-align: left;
+      font-size: 14px;
+      margin: 6px;
+      
+  }
+
+  h1{
+    font-family: fantasy;
+  }
+ 
+
+  .gallery_grid{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 6px;
+  }
+
+  .gallery h1 {
+      text-align: center;
+
+  }
+  .gallery a{
+      text-align: center;
+      color: orange;
+      margin-bottom: 15px;
+      display: block;
+      text-align: center;
+  }
+
+  .gallery-images{
+      margin-right: 40px;
+      margin-left: 40px;
+  }
+
+
+  .card {
+    height: 189px;
+    width: 100%;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    background-size: cover !important;
+    background-position: center;
+    color: white;
+    /* font-size: 30px; */
+    position: relative;
+    opacity: 1;
+   
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+  
+ 
+  .card-description {
+    position: absolute;
+    bottom: 0px;
+    right: 6px;
+    top: -18px;
+
+  }
+ 
+  .card-description p {
+    font-size: 35px;
+    font-weight: 500;
+    width: 200px;
+  }
+  
+  .card:hover {
+    opacity: 0.7;
+   
+  }
+.big-picture{
+    color: white;
+    text-align: center;
+    height: 300px;
+    background-size: cover !important;
+    padding: 130px;
+    margin-top: 20px;
+
+}
+
+.big-picture:hover{
+    opacity: 0.7;
+    
+}
+
+.big-picture p {
+    width: 300px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin-bottom: 22px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    bottom: 0px;
+    right: 6px;
+   
+
+}
+
+
+.beer_grid{
+    text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 6px;
+}
+
+.beer h1{
+    text-align: center;
+}
+
+.beer a{
+    text-align: center;
+    color: orange;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+.beer-images{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.beer-images img{
+    height: 300px;
+    width: 300px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: white;
+    position: relative;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
