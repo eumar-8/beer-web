@@ -4,36 +4,36 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>my page</title>
+	<title>Dear Beer</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css"href="index.css">
 </head>
 <body>
-	<section>
+	<section id="top">
 		<nav class="nav">
 			<a href="#">Dear Beer</a>
 			<div class="navbar-right">
-				<a id="location" href="#goTop">Location</a>
-				<a id="galleryimg"href="#goTop">Gallery</a>
-				<a href="#">Beer</a>
-				<a href="#">Team</a>
+				<a href="#location">Location</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#beer">Beer</a>
+				<a href="#team">Team</a>
 			</div>
 		</ul>
 		</nav>						
 	</section>	
 	<section>
-		<div class="banner" style="background-image:url('https://images.unsplash.com/photo-1504502350688-00f5d59bbdeb?ixlib=rb-0.3.5&s=665b83758bf891079a80cfa0815993cd&auto=format&fit=crop&w=1050&q=80');">
+		<div class="banner" style="background-position: center;background-image:url('https://images.unsplash.com/photo-1504502350688-00f5d59bbdeb?ixlib=rb-0.3.5&s=665b83758bf891079a80cfa0815993cd&auto=format&fit=crop&w=1050&q=80');">
 		  <div class="banner-content">
 		 	 <h1>Dear Bear: Local Bear shop</h1>
 				  <p>we serve it cold</p>
-				  <button  class= "button"type="button">Discover our beer</button>
+				  <a href="#beer" style="text-decoration:none"><div class="button">Discover our beer</div></a>
 				</div>
 			  </div>
 	</section>	
-	<section>
+	<section id="location">
 	   <div class="text-map">
 			<h1>Best location</h1>
-			<div id="goTop"><a href="#location">Top</a></div>
+			<div ><a href="#top">Top</a></div>
 			<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10226.218314125557!2d2.163266645896575!3d41.395555346702956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e96cd68aa3%3A0x48be946b0fef63a6!2sCalle+de+Arag%C3%B3n%2C+347%2C+08009+Barcelona!5e0!3m2!1ses!2ses!4v1541962002102" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fuga fugiat exercitationem 
@@ -57,11 +57,11 @@
 		</div>
 		
 	</section>	
-	<section>
+	<section id="gallery">
 		<div class="gallery">
 			<h1>Gallery</h1>
 			  <div class="gallery-images">
-					<div id="goTop"><a href="#galleryimg">Top</a></div>
+					<div><a href="#top">Top</a></div>
 					<div class="gallery_grid">	
 							<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1505004549772-f8b412f88d83?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7df2291db9fd359aa84eb62461b200ae&auto=format&fit=crop&w=2549&q=80');">
 								<div class="card-description">
@@ -90,30 +90,77 @@
 				
 		</div>
 	</section>
-	<section>
+	<section id="beer">
 			<div class="beer">
 				<h1>Beer</h1>
-				<div id="goTop"><a href="#beer">Top</a></div>
+				<div id="goTop"><a href="#top">Top</a></div>
 				  <div class="beer-images">
 						<div class="beer_grid">	
-							<div class="">				        
-							 	<img src="https://images.unsplash.com/photo-1490171705023-a68d8111f881?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89917041b52500fa0dbe6bdd0dedfabc&auto=format&fit=crop&w=1504&q=80" alt="hey">					
+							<div class="one-beer">				        
+							 	<img src="https://draftmag.com/wp-content/uploads/BarrelAgedBeers.jpg" alt="hey">					
+									<p>Ale yeast gathers and ferments at the top (hence, “top fermented”) of the vessel, at a high temperature so the yeast acts quickly. Some finish fermenting in less than 2 weeks. Ales are rich and complex, with more yeast-derived flavors than lagers.</p>
 
 							</div>
-							<div class="">
-								<img src="https://images.unsplash.com/photo-1499424474736-c040d0665d84?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec2a357a919d913e4b6a45aa86a27b11&auto=format&fit=crop&w=2682&q=80" alt="hey">
+							<div class="img-left">
+								<img src="https://i.pinimg.com/originals/58/04/c8/5804c8199e0144408a77f99fec82cfc6.jpg" alt="hey">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis asperiores voluptates reprehenderit quasi, quaerat, ab provident, ducimus ea nobis eos sequi nisi praesentium corporis alias dolor consequuntur ut aspernatur.</p>
 							</div>
-							<div class="">
-								<img src="https://images.unsplash.com/photo-1537275346024-2cbe7e1b616c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=af6296e3dd319226b798d0c58f56068d&auto=format&fit=crop&w=2602&q=80" alt="hey">
+							<div class="img-rigth">
+								<img src="https://media.self.com/photos/57d8c3fed3276fe232947a64/master/w_728,c_limit/amaro-montenegro-main.jpg" alt="hey">
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aspernatur consequuntur assumenda excepturi deleniti explicabo voluptates officia sint, eos pariatur soluta maxime impedit voluptatum ducimus suscipit, perferendis tempore praesentium quis?</p>
 							</div>
-							<div class="">
-								<img src="https://images.unsplash.com/photo-1509383999948-4f6d84bf7aa6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c15e6d05d1139a8eab5f60bb8caa894e&auto=format&fit=crop&w=2468&q=80" alt="heyß">
+							<div class="img-left">
+								<img src="https://www.saucey.com/blog/wp-content/uploads/2018/01/lost-abbey-cable-car-kriek-570x855-300x400.jpg" alt="heyß">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sed provident voluptatem, quis beatae doloremque porro reiciendis architecto earum illum laudantium cupiditate voluptatum ipsam praesentium adipisci expedita necessitatibus aperiam nam.</p>
 							</div>
 						</div>
 	
 	
 				  </div>	
 			</div>
+		</section>
+
+		<section id="team">
+			<div class="team">
+				<h1>Team</h1>
+				<div id="goTop"><a href="#top">Top</a></div>
+				  <div class="team-images">
+						<div class="team_grid">	
+							<div class="one-beer">				        
+								<img src="http://cdn.24.co.za/files/Cms/General/d/7995/93f0e73a1fa540838baba1a6b4c76ef2.jpg"class="avatar-large" alt="heyß">
+									<p>Ale yeast gathers and ferments at the top (hence, “top fermented”) of the vessel, at a high temperature so the yeast acts quickly. Some finish fermenting in less than 2 weeks.
+										 Ales are rich and complex, with more yeast-derived flavors than lagers.</p>
+
+							</div>
+							<div class="img-left">
+								<img src="http://www.decentfashion.in/wp-content/uploads/2018/02/Beautiful-Girls-Images-fsso-300x300.jpg" class="avatar-large"alt="hey">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis asperiores voluptates reprehenderit quasi, quaerat, ab provident, ducimus ea nobis eos sequi nisi praesentium corporis alias dolor consequuntur ut aspernatur.</p>
+							</div>
+							<div class="img-rigth">
+								<img src="http://lanavenodriza.com/wp-content/uploads/2017/07/profile-300x300.jpg" class="avatar-large" alt="hey">
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aspernatur consequuntur assumenda excepturi deleniti explicabo voluptates officia sint, eos pariatur soluta maxime impedit voluptatum ducimus suscipit, perferendis tempore praesentium quis?</p>
+							</div>
+							
+						</div>
+	
+	
+				  </div>	
+			</div>
+		</section>
+
+		<section>
+			<div class="footer">
+				<div class="footer-links">
+				  <a href="#"><i class="fab fa-github"></i></a>
+				  <a href="#"><i class="fab fa-instagram"></i></a>
+				  <a href="#"><i class="fab fa-facebook"></i></a>
+				  <a href="#"><i class="fab fa-twitter"></i></a>
+				  <a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+				<div class="footer-copyright">
+				  This footer is made with <i class="fas fa-heart"></i> by eugenia
+				</div>
+			  </div>
 		</section>
 	
 
